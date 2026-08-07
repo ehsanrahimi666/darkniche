@@ -151,7 +151,16 @@ Kept deliberately, because each was found by a test rather than by reading:
    zero-standard-deviation warning when every region has the same ratio;
    `confound_r` is now `NA` in that case and the report and plot say
    "not estimable".
-4. **`CFI_w` cell-ordering.** The Mahalanobis weight grid must be enumerated
+4. **README verification snippet did not run as written** (fixed
+   post-release, in documentation only). Two problems, both found by a user
+   pasting it into a fresh session rather than by any test: the metric
+   example printed values from an unseeded draw, so the printed output never
+   matched the comment; and it told the reader to run
+   `testthat::test_local(system.file(package = "darkniche"))`, which fails
+   because R does not install a package's tests unless
+   `INSTALL_opts = "--install-tests"` is passed. Documentation examples that
+   quote expected output must either be seeded or must not quote output.
+5. **`CFI_w` cell-ordering.** The Mahalanobis weight grid must be enumerated
    in the same order as the flattened density. R densities flatten
    column-major (x fastest, matching `expand.grid`); the Python fixtures are
    C-order (x slowest). The golden test builds its own grid for the fixture

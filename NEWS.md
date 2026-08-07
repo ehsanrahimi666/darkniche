@@ -45,6 +45,17 @@ First release.
 * `R CMD check` clean; CI on Linux, Windows and macOS.
 * `analysis/` regenerates every figure and table of the software paper.
 
+## Installation notes
+
+R does not install a package's tests by default. To run the suite from an
+installed copy:
+
+```r
+remotes::install_github("ehsanrahimi666/darkniche",
+                        INSTALL_opts = "--install-tests")
+testthat::test_package("darkniche")
+```
+
 ## Distribution
 
 Installed from GitHub with `remotes::install_github("ehsanrahimi666/darkniche")`.

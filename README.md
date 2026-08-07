@@ -69,8 +69,12 @@ vignette("darkniche-quickstart")
 
 ### Check the install worked
 
+Copy-paste this into a fresh R session. Every printed value should match the
+comment beside it.
+
 ```r
 library(darkniche)
+set.seed(1)
 
 # 1. the bundled global results load, and reproduce the published summary
 eco <- dn_data("ecoregion")
@@ -78,7 +82,8 @@ nrow(eco)                                    #> 619
 round(range(eco$cddr), 3)                    #> 0.022 0.924
 round(cor(eco$cddr, log10(eco$area_km2)), 3) #> -0.441
 
-# 2. the algebraic identity the package rests on
+# 2. the algebraic identity the package rests on: no symmetric statistic can
+#    express containment, because sum(min(Zs, Ze)) IS Schoener's D
 sp <- dn_space(cbind(rnorm(3000), rnorm(3000)), R = 60)
 Zs <- rbind(as.numeric(dn_density(cbind(rnorm(800, 0, 1.4),
                                         rnorm(800, 0, 1.4)), sp)))
@@ -88,9 +93,9 @@ m <- dn_metrics(Zs, Ze)
 all.equal(as.numeric(m$DNC_min), as.numeric(m$D))   #> TRUE
 round(c(D = m$D, DNC_q = m$DNC_q, DNC_auc = m$DNC_auc), 3)
 #>       D   DNC_q DNC_auc
-#>   ~0.17    1.00   ~0.73
+#>   0.149   1.000   0.730
 # D is low although the region is habitable throughout; only the directional
-# forms say so. (Exact values depend on the random draw above.)
+# forms say so.
 
 # 3. the diagnostic fires on the real data
 dn_direction_census(dn_data("sweep"))$census
@@ -99,9 +104,18 @@ dn_direction_census(dn_data("sweep"))$census
 #> 2     0.90        344        275
 #> 3     0.95        520         81
 #> 4     0.99        449          3
+```
 
-# 4. the full test suite (needs testthat)
-testthat::test_local(system.file(package = "darkniche"))
+### Run the package's own test suite
+
+R does not install a package's tests by default, so this needs one extra
+install flag:
+
+```r
+remotes::install_github("ehsanrahimi666/darkniche",
+                        INSTALL_opts = "--install-tests")
+testthat::test_package("darkniche")
+#> [ FAIL 0 | WARN 0 | SKIP 0 | PASS 162 ]
 ```
 
 ## Use
