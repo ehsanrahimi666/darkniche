@@ -64,9 +64,9 @@ First release.
 
 ### Quality
 
-- 162 unit tests: 56 golden assertions against an independent Python
+- 169 unit tests: 56 golden assertions against an independent Python
   reference implementation (`tools/make_golden.py` regenerates the
-  fixtures), 106 behavioural.
+  fixtures), 113 behavioural.
 - `R CMD check` clean; CI on Linux, Windows and macOS.
 - `analysis/` regenerates every figure and table of the software paper.
 

@@ -130,7 +130,7 @@
   inst/extdata/
     golden/     fixtures from the Python reference implementation
     ecoregions/ published results for 619 WWF terrestrial ecoregions
-  tests/        162 assertions (test-golden.R numerical, test-workflow.R behavioural)
+  tests/        169 assertions (test-golden.R numerical, test-workflow.R behavioural)
   vignettes/    quickstart tutorial
   analysis/     scripts regenerating every figure and table of the paper
     figures/    generated PNGs
@@ -163,6 +163,12 @@
 <strong><code><a href="reference/dn_cddr.html">dn_cddr()</a></code> warned on a constant ratio.</strong> <code><a href="https://rdrr.io/r/stats/cor.html" class="external-link">cor()</a></code> emits a zero-standard-deviation warning when every region has the same ratio; <code>confound_r</code> is now <code>NA</code> in that case and the report and plot say “not estimable”.</li>
 <li>
 <strong>README verification snippet did not run as written</strong> (fixed post-release, in documentation only). Two problems, both found by a user pasting it into a fresh session rather than by any test: the metric example printed values from an unseeded draw, so the printed output never matched the comment; and it told the reader to run <code>testthat::test_local(system.file(package = "darkniche"))</code>, which fails because R does not install a package’s tests unless <code>INSTALL_opts = "--install-tests"</code> is passed. Documentation examples that quote expected output must either be seeded or must not quote output.</li>
+<li>
+<strong>Architecture figure kept the old function prefix</strong> (fixed post-release). The package-wide rename <code>dd_</code> -&gt; <code>dn_</code> used a word-boundary regex, which does not match <code>dd_</code> when it follows an escaped newline inside a string literal (<code>"...\ndd_density()"</code>), so five boxes of the architecture figure still showed the old names. Found by grepping the whole tree for the old prefix rather than by any test. Renames must be verified by a tree-wide search afterwards, not assumed from the regex.</li>
+<li>
+<strong>README workflow block was not runnable.</strong> It used placeholder object names (<code>global_scores</code>, <code>pair_table</code>), so a user pasting it hit <code>object not found</code>. The block now simulates its own inputs and runs end to end; it is executed verbatim before each release.</li>
+<li>
+<strong><code>skip_on_cran()</code> made the test count ambiguous.</strong> The plotting test was skipped in CRAN-style runs and not in interactive ones, so the suite reported 162 or 169 assertions depending on context and the documented figure was sometimes wrong. Since the package is not going to CRAN, the skip was removed: the count is now 169 everywhere.</li>
 <li>
 <strong><code>CFI_w</code> cell-ordering.</strong> The Mahalanobis weight grid must be enumerated in the same order as the flattened density. R densities flatten column-major (x fastest, matching <code>expand.grid</code>); the Python fixtures are C-order (x slowest). The golden test builds its own grid for the fixture ordering and documents why.</li>
 </ol></div>
