@@ -1,0 +1,32 @@
+Package: darkniche
+Title: Climatic Dark Diversity and Directional Niche Coverage
+Version: 0.1.0
+Authors@R: c(
+    person("Ehsan", "Rahimi", email = "ehsanrahimi666@gmail.com",
+           role = c("aut", "cre")),
+    person("Chuleui", "Jung", role = "aut"))
+Description: A reproducible framework for asking which species are absent
+    from a region despite tolerating its climate -- its climatic dark
+    diversity. Implements the directional niche-coverage family (DNC_q,
+    DNC_auc, NSI, CFI, NOV), which answers containment questions that
+    symmetric overlap statistics (Schoener's D, Warren's I) cannot express;
+    three analytical null models (breadth-matched, environmental shift,
+    geographic relocation); calibrated dark-diversity accounting with an
+    area-adjusted dark-diversity ratio; validation against documented
+    introduced ranges with fast DeLong tests; and a threshold-sweep
+    diagnostic that reveals when the direction of an aggregate null-model
+    test is an artefact of the chosen threshold. Publication-quality
+    figures and table exporters are included, together with results for
+    all 619 terrestrial ecoregions as bundled example data.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 4.1)
+Imports: stats, graphics, grDevices, utils, tools
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown, terra, pkgdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/ehsanrahimi666/darkniche,
+    https://ehsanrahimi666.github.io/darkniche/
+BugReports: https://github.com/ehsanrahimi666/darkniche/issues

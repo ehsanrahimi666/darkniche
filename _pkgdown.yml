@@ -1,0 +1,70 @@
+url: https://ehsanrahimi666.github.io/darkniche/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#2166AC"
+    base_font: {google: "Source Sans 3"}
+    heading_font: {google: "Source Sans 3"}
+    code_font: {google: "JetBrains Mono"}
+
+home:
+  title: Climatic dark diversity and directional niche coverage
+  description: >
+    Which species are absent from a region although its climate is inside
+    their tolerance? darkniche answers that question end to end, and makes
+    the two ways of getting it wrong visible in the output.
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [search, github]
+  components:
+    articles:
+      text: Articles
+      menu:
+        - text: Quickstart
+          href: articles/darkniche-quickstart.html
+
+reference:
+- title: Environmental space
+  desc: One shared lattice, one density per object.
+  contents: [dn_space, dn_centres, dn_density, dn_moments]
+
+- title: Coverage geometry
+  desc: Envelopes, cumulative density rank, and the coverage weight vectors.
+  contents: [dn_envelope, dn_entryq, dn_weights]
+
+- title: Metrics
+  desc: >
+    The directional family, with the symmetric statistics computed alongside
+    for comparison.
+  contents: [dn_metrics]
+
+- title: Null models
+  desc: Three ways of asking whether a coverage value is more than chance.
+  contents: [dn_null_breadth, dn_null_shift, dn_null_relocate,
+             dn_null_summary, dn_ses]
+
+- title: Calibration
+  desc: Fixing what "admissible" means, against documented introductions.
+  contents: [dn_match, dn_auc, dn_delong, dn_calibrate]
+
+- title: Dark-diversity accounting
+  desc: The conjunction rule and the area-adjusted ratio.
+  contents: [dn_dark, dn_cddr]
+
+- title: Region-level inference and its diagnostic
+  desc: >
+    The Poisson-binomial count test with reliability flags, and the
+    threshold sweep that shows when its direction is an artefact.
+  contents: [dn_aggregate, dn_sweep, dn_direction_census, dn_report]
+
+- title: Data
+  contents: [dn_data]
+
+- title: Figures and tables
+  contents: [starts_with("dn_plot"), dn_table_extremes, dn_table_export]
+
+- title: Package
+  contents: [darkniche-package]

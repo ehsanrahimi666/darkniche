@@ -1,0 +1,620 @@
+region,n_obs,n_dark,cddr,area_km2
+Sinaloan dry forests,864,1651,0.6564612326043737,93200.0
+Everglades,267,1684,0.8631471040492056,22000.0
+Veracruz moist forests,1051,1350,0.5622657226155768,92800.0
+Hispaniolan moist forests,277,1267,0.8205958549222798,49600.0
+Hispaniolan dry forests,302,1382,0.8206650831353919,23600.0
+Trans-Mexican Volcanic Belt pine-oak forests,1177,2020,0.6318423522051924,87200.0
+Balsas dry forests,874,1363,0.6092981671881985,66000.0
+Pantanos de Centla,553,1652,0.7492063492063492,20000.0
+Uatuma-Trombetas moist forests,1532,793,0.3410752688172043,506800.0
+Ucayali moist forests,1802,958,0.3471014492753623,136800.0
+Kazakh upland,317,230,0.4204753199268738,64800.0
+Isthmian-Atlantic moist forests,1407,830,0.3710326329906124,73200.0
+Guajira-Barranquilla xeric scrub,856,1497,0.6362090947726307,24800.0
+Cauca Valley montane forests,1475,1196,0.4477723698989143,42000.0
+Guianan piedmont and lowland moist forests,1408,633,0.3101420872121509,248000.0
+Sierra Madre del Sur pine-oak forests,851,1903,0.6909949164851126,52800.0
+Caqueta moist forests,1225,583,0.3224557522123893,201200.0
+Ecuadorian dry forests,669,1572,0.7014725568942436,17200.0
+Marajó varzeá,1151,1050,0.4770558836892322,74400.0
+Orinoco Delta swamp forests,954,1290,0.5748663101604278,41600.0
+Catatumbo moist forests,870,1263,0.5921237693389592,14800.0
+Venezuelan Andes montane forests,1133,1293,0.5329760923330585,31200.0
+Isthmian-Pacific moist forests,1011,1137,0.5293296089385475,34800.0
+Atacama desert,249,1263,0.8353174603174603,104800.0
+Southern Andean Yungas,1039,1370,0.568700705687007,64000.0
+Bolivian montane dry forests,1129,1931,0.6310457516339869,70800.0
+Alto Paraná Atlantic forests,1756,529,0.2315098468271335,506000.0
+Cherskii-Kolyma mountain tundra,261,10,0.03690036900369,453200.0
+Khangai Mountains alpine meadow,269,118,0.3049095607235142,36000.0
+Ethiopian montane forests,1251,1387,0.5257771038665656,252000.0
+Guianan savanna,1311,877,0.4008226691042048,100400.0
+Magdalena Valley montane forests,1862,469,0.2012012012012012,107200.0
+Apure-Villavicencio dry forests,1108,1332,0.5459016393442623,59600.0
+Cuban dry forests,350,1562,0.8169456066945606,104400.0
+Rio Negro campinarana,1087,689,0.3879504504504504,46400.0
+Jalisco dry forests,711,1663,0.7005054759898904,32000.0
+Yucatán dry forests,470,1917,0.8031001256807708,53200.0
+Yucatán moist forests,560,1396,0.7137014314928425,77600.0
+Bajío dry forests,667,1618,0.7080962800875273,44400.0
+Eastern Cordillera real montane forests,2354,104,0.0423108218063466,116000.0
+Scandinavian Montane Birch forest and grasslands,467,178,0.275968992248062,251200.0
+Chukchi Peninsula tundra,191,38,0.1659388646288209,295600.0
+Petén-Veracruz moist forests,1244,874,0.4126534466477809,174400.0
+Sierra Madre de Oaxaca pine-oak forests,973,792,0.4487252124645892,20400.0
+Southern Pacific dry forests,1008,1346,0.5717926932880204,46400.0
+Llanos,1524,1052,0.4083850931677019,384400.0
+Talamancan montane forests,1072,936,0.4661354581673306,12000.0
+Guianan moist forests,1410,925,0.3961456102783726,509200.0
+Arctic desert,76,13,0.146067415730337,125200.0
+Beringia upland tundra,196,453,0.6979969183359014,101200.0
+Torngat Mountain tundra,93,40,0.3007518796992481,33200.0
+Central American pine-oak forests,1179,1248,0.5142150803461063,124400.0
+Chiapas Depression dry forests,767,2084,0.7309715889161698,17600.0
+Sierra Madre de Chiapas moist forests,737,648,0.467870036101083,22000.0
+Central American Atlantic moist forests,1083,834,0.4350547730829421,112800.0
+Miskito pine forests,561,1313,0.7006403415154749,14400.0
+Central American dry forests,911,1153,0.5586240310077519,60800.0
+Paraguana xeric scrub,840,1590,0.654320987654321,16800.0
+Lara-Falcón dry forests,744,1577,0.6794485135717363,17600.0
+Cordillera Oriental montane forests,1942,618,0.24140625,80400.0
+Maracaibo dry forests,817,1660,0.6701655228098506,39600.0
+Sinú Valley dry forests,917,1216,0.5700890764181903,40400.0
+La Costa xeric shrublands,1072,1442,0.573587907716786,90000.0
+Magdalena-Urabá moist forests,1039,1155,0.5264357338195077,78800.0
+Chocó-Darién moist forests,1429,654,0.313970235237638,81600.0
+Mato Grosso seasonal forests,1428,998,0.4113767518549052,404000.0
+Juruá-Purus moist forests,1181,794,0.4020253164556962,253200.0
+Cantabrian mixed forests,735,1585,0.6831896551724138,77600.0
+Gissaro-Alai open woodlands,477,644,0.5744870651204282,186400.0
+Rodope montane mixed forests,651,618,0.4869976359338061,31200.0
+Klamath-Siskiyou forests,382,1973,0.837791932059448,48000.0
+Middle Arctic tundra,96,44,0.3142857142857143,978000.0
+Northwestern Andean montane forests,2044,151,0.0687927107061503,90400.0
+Guianan Highlands moist forests,1418,805,0.3621232568600989,164000.0
+Pantepui,935,924,0.4970414201183432,11200.0
+Magdalena Valley dry forests,1071,1438,0.5731367078517338,20000.0
+Negro-Branco moist forests,1282,675,0.3449156872764435,218400.0
+Napo moist forests,1720,1220,0.4149659863945578,264800.0
+Western Ecuador moist forests,1048,447,0.2989966555183946,44800.0
+Purus varzeá,1343,366,0.2141603276770041,144400.0
+Northwest Russian-Novaya Zemlya tundra,317,42,0.116991643454039,262400.0
+Tocantins/Pindare moist forests,1071,788,0.4238838084991931,204800.0
+Xingu-Tocantins-Araguaia moist forests,1282,868,0.4037209302325581,283600.0
+Madeira-Tapajós moist forests,1810,794,0.3049155145929339,738400.0
+Tapajós-Xingu moist forests,1305,1289,0.4969159599074788,343600.0
+Maranhão Babaçu forests,931,943,0.5032017075773746,156000.0
+Tumbes-Piura dry forests,849,1785,0.6776765375854215,42800.0
+East Siberian taiga,493,11,0.0218253968253968,3997200.0
+Arctic coastal tundra,158,39,0.1979695431472081,98800.0
+Beringia lowland tundra,219,532,0.7083888149134487,118400.0
+Middle East steppe,508,509,0.5004916420845624,140400.0
+Caatinga,1324,1365,0.5076236519152101,788400.0
+Purus-Madeira moist forests,1360,983,0.419547588561673,177600.0
+Monte Alegre varzeá,1170,825,0.4135338345864661,34000.0
+Southwest Amazon moist forests,2439,882,0.2655826558265582,781600.0
+Iquitos varzeá,1296,1135,0.4668860551213492,56400.0
+Cerrado,2276,1200,0.3452243958573072,1900800.0
+Dry Chaco,1482,1355,0.4776172012689461,798000.0
+Alberta-British Columbia foothills forests,313,455,0.5924479166666666,118000.0
+Kazakh semi-desert,441,176,0.2852512155591572,688000.0
+West Sudanian savanna,1272,1554,0.5498938428874734,1649600.0
+Canadian Aspen forests and parklands,412,240,0.3680981595092024,421600.0
+Peruvian Yungas,2393,585,0.1964405641370047,199200.0
+Sechura desert,801,1661,0.6746547522339561,184800.0
+Marañón dry forests,1117,1156,0.5085789705235372,11200.0
+Pernambuco coastal forests,751,1710,0.6948394961397806,18400.0
+Central Andean wet puna,1537,1586,0.5078450208133205,128000.0
+Atlantic dry forests,980,1914,0.6613683483068418,105600.0
+Arctic foothills tundra,177,79,0.30859375,133200.0
+High Arctic tundra,67,54,0.4462809917355372,457600.0
+Western Guinean lowland forests,1082,701,0.393157599551318,217600.0
+Saharan flooded grasslands,770,1804,0.7008547008547008,181600.0
+Beni savanna,1154,1716,0.5979094076655053,115200.0
+Bahia interior forests,1530,1196,0.4387380777696258,233200.0
+Bahia coastal forests,1271,688,0.3511995916283818,113600.0
+Chiquitano dry forests,1429,1320,0.4801746089487086,249200.0
+Central Andean puna,1327,1474,0.5262406283470189,216000.0
+Bolivian Yungas,1909,1037,0.3520027155465037,94000.0
+Pantanal,1034,1577,0.6039831482190732,155200.0
+Central Andean dry puna,591,739,0.5556390977443609,254000.0
+Humid Chaco,1040,1512,0.5924764890282131,294800.0
+Serra do Mar coastal forests,1482,502,0.2530241935483871,114000.0
+Chilean matorral,338,1777,0.8401891252955083,149600.0
+Araucaria moist forests,1199,380,0.2406586447118429,208800.0
+Southern Andean steppe,416,1538,0.7871033776867963,112000.0
+High Monte,585,1219,0.6757206208425721,126400.0
+Paraná flooded savanna,725,1603,0.688573883161512,34000.0
+Southern Cone Mesopotamian savanna,707,726,0.5066294487090021,27600.0
+Uruguayan savanna,940,619,0.3970493906350224,360800.0
+Espinal,767,1758,0.6962376237623762,300000.0
+Low Monte,461,1456,0.7595200834637454,360000.0
+Humid Pampas,567,1751,0.7553925798101812,400800.0
+Valdivian temperate forests,368,1138,0.7556440903054449,234800.0
+Patagonian steppe,451,1352,0.7498613422074321,558800.0
+Magellanic subpolar forests,221,884,0.8,106400.0
+Low Arctic tundra,193,49,0.2024793388429752,788400.0
+Kamchatka Mountain tundra and forest tundra,199,288,0.5913757700205339,115200.0
+Nihonkai evergreen forests,255,327,0.5618556701030928,26000.0
+Kopet Dag woodlands and forest steppe,373,761,0.6710758377425045,55600.0
+Caspian Hyrcanian mixed forests,486,1004,0.6738255033557047,53600.0
+Celtic broadleaf forests,507,503,0.498019801980198,212000.0
+Great Lakes Basin desert steppe,411,76,0.1560574948665297,187600.0
+Western Zambezian grasslands,817,1701,0.6755361397934869,32800.0
+West Saharan montane xeric woodlands,291,970,0.7692307692307693,254000.0
+South China-Vietnam subtropical evergreen forests,1024,1110,0.5201499531396439,225200.0
+Northwestern thorn scrub forests,871,1036,0.5432616675406398,495200.0
+Sierra Madre Occidental pine-oak forests,890,1697,0.6559721685349826,179600.0
+Lake Chad flooded savanna,545,144,0.2089985486211901,18000.0
+South Deccan Plateau dry deciduous forests,854,1786,0.6765151515151515,82000.0
+Trans-Baikal Bald Mountain tundra,346,17,0.046831955922865,144400.0
+Northern transitional alpine forests,225,731,0.7646443514644351,23200.0
+Pindus Mountains mixed forests,706,1136,0.6167209554831705,38000.0
+Caspian lowland desert,566,266,0.3197115384615384,270400.0
+Northern California coastal forests,304,1788,0.8546845124282982,12000.0
+Iberian conifer forests,570,1109,0.6605122096486004,19600.0
+Kalaallit Nunaat high arctic tundra,56,30,0.3488372093023256,268800.0
+Kola Peninsula tundra,267,154,0.3657957244655582,56800.0
+Scandinavian and Russian taiga,624,119,0.1601615074024226,2191200.0
+Japurá-Solimoes-Negro moist forests,1383,1192,0.4629126213592233,293200.0
+Solimões-Japurá moist forests,1282,1238,0.4912698412698412,180800.0
+Taimyr-Central Siberian tundra,210,28,0.1176470588235294,924800.0
+Novosibirsk Islands arctic desert,43,63,0.5943396226415094,24800.0
+Yamal-Gydan tundra,197,38,0.1617021276595744,407200.0
+Northeast Siberian coastal tundra,147,25,0.1453488372093023,231600.0
+Kalaallit Nunaat low arctic tundra,64,74,0.5362318840579711,141200.0
+Northeast Siberian taiga,286,9,0.0305084745762711,1228400.0
+Carpathian montane forests,641,701,0.522354694485842,117200.0
+East European forest steppe,649,158,0.1957868649318463,700800.0
+Eastern Himalayan broadleaf forests,1259,743,0.3711288711288711,113600.0
+Appalachian mixed mesophytic forests,485,1134,0.7004323656578134,188400.0
+Tarim Basin deciduous forests and steppe,156,44,0.22,48000.0
+Tyrrhenian-Adriatic Sclerophyllous and mixed forests,677,1140,0.6274078150798019,78000.0
+Eastern forest-boreal transition,371,453,0.5497572815533981,348800.0
+Puget lowland forests,314,1629,0.8383942357179619,13600.0
+Altai alpine meadow and tundra,459,193,0.2960122699386503,69600.0
+Southern Great Lakes forests,433,681,0.6113105924596051,245600.0
+Central Asian southern desert,426,310,0.421195652173913,570000.0
+Elburz Range forest steppe,502,683,0.5763713080168776,71200.0
+Northwestern Himalayan alpine shrub and meadows,634,448,0.4140480591497227,52400.0
+East Central Texas forests,413,1496,0.78365636458879,62000.0
+South Iran Nubo-Sindian desert and semi-desert,527,1340,0.7177289769683985,358400.0
+Edwards Plateau savanna,413,1824,0.8153777380420205,62400.0
+Eastern Himalayan alpine shrub and meadows,1109,871,0.4398989898989899,158800.0
+Terai-Duar savanna and grasslands,874,1734,0.6648773006134969,32000.0
+Brooks-British Range tundra,195,115,0.3709677419354839,157200.0
+Northwest Territories taiga,255,72,0.2201834862385321,347600.0
+Davis Highlands tundra,42,53,0.5578947368421052,56400.0
+Interior Alaska-Yukon lowland taiga,241,221,0.4783549783549783,484400.0
+Interior Yukon-Alaska alpine tundra,231,215,0.4820627802690583,204400.0
+West Siberian taiga,491,117,0.1924342105263158,1674000.0
+Ural montane forests and tundra,486,124,0.2032786885245901,184000.0
+Ethiopian montane grasslands and woodlands,1163,1540,0.5697373288938217,263200.0
+Eastern Canadian Shield taiga,180,118,0.3959731543624161,745600.0
+Alaska Peninsula montane taiga,176,337,0.6569200779727096,35600.0
+Bering tundra,227,43,0.1592592592592592,477200.0
+Northern Canadian Shield taiga,245,79,0.2438271604938271,624000.0
+Ogilvie-MacKenzie alpine tundra,218,201,0.4797136038186158,204800.0
+Iceland boreal birch forests and alpine tundra,134,219,0.6203966005665722,99600.0
+Muskwa-Slave Lake forests,263,232,0.4686868686868687,263200.0
+Manchurian mixed forests,491,107,0.1789297658862876,514000.0
+Dinaric Mountains mixed forests,738,628,0.4597364568081991,55600.0
+Eastern Gobi desert steppe,279,85,0.2335164835164835,280800.0
+Po Basin mixed forests,653,821,0.5569877883310719,42400.0
+Suiphun-Khanka meadows and forest meadows,356,271,0.4322169059011164,34000.0
+Blue Mountains forests,363,986,0.7309117865085248,63200.0
+Central Asian riparian woodlands,371,260,0.4120443740095087,68000.0
+Central tall grasslands,396,405,0.5056179775280899,250000.0
+Himalayan subtropical pine forests,951,1270,0.5718144979738856,63200.0
+Zambezian flooded grasslands,1261,1399,0.5259398496240602,124000.0
+Cape York Peninsula tropical savanna,677,1569,0.6985752448797863,116400.0
+Caledon conifer forests,391,349,0.4716216216216216,31200.0
+Eastern Canadian forests,299,259,0.4641577060931899,480000.0
+Western Great Lakes forests,385,283,0.4236526946107784,273200.0
+Central European mixed forests,731,404,0.3559471365638766,736400.0
+Altai montane forest and forest steppe,496,136,0.2151898734177215,128400.0
+Central Asian northern desert,484,251,0.3414965986394558,680400.0
+Nenjiang River grassland,278,118,0.2979797979797979,21200.0
+Upper Midwest forest-savanna transition,391,313,0.4446022727272727,155600.0
+Snake-Columbia shrub steppe,459,699,0.6036269430051814,218800.0
+Gulf of St. Lawrence lowland forests,267,171,0.3904109589041096,30400.0
+Middle Atlantic coastal forests,440,1273,0.7431406888499709,133200.0
+Alaska-St. Elias Range tundra,253,393,0.608359133126935,175200.0
+Yukon Interior dry forests,226,296,0.5670498084291188,64800.0
+Cook Inlet taiga,181,589,0.7649350649350649,22400.0
+Copper Plateau taiga,186,334,0.6423076923076924,15600.0
+Northern Cordillera forests,294,273,0.4814814814814814,282800.0
+Pacific Coastal Mountain icefields and tundra,269,475,0.6384408602150538,138800.0
+Mid-Continental Canadian forests,311,280,0.4737732656514382,351600.0
+Sarmatic mixed forests,617,220,0.2628434886499403,846400.0
+Northern mixed grasslands,422,257,0.3784977908689249,212000.0
+English Lowlands beech forests,426,846,0.6650943396226415,45200.0
+Ghorat-Hazarajat alpine meadow,309,305,0.496742671009772,73200.0
+Mesopotamian shrub desert,366,471,0.5627240143369175,204000.0
+Central Afghan Mountains xeric woodlands,429,127,0.2284172661870503,141600.0
+Mediterranean woodlands and forests,800,1409,0.637845178813943,370000.0
+Mediterranean dry woodlands and steppe,605,935,0.6071428571428571,310400.0
+Indochina mangroves,401,2016,0.8340918494000827,10400.0
+Sakhalin Island taiga,257,329,0.5614334470989761,78000.0
+South Siberian forest steppe,363,251,0.4087947882736156,156400.0
+Jos Plateau forest-grassland mosaic,722,1827,0.7167516673205179,13200.0
+Mongolian-Manchurian grassland,542,37,0.0639032815198618,893600.0
+Sayan Intermontane steppe,365,62,0.1451990632318501,38400.0
+Sayan Alpine meadows and tundra,424,143,0.2522045855379188,76400.0
+Kamchatka-Kurile meadows and sparse forests,188,434,0.6977491961414791,140800.0
+Midwestern Canadian Shield forests,301,251,0.4547101449275362,554000.0
+Southern Hudson Bay taiga,251,238,0.4867075664621677,368400.0
+Okhotsk-Manchurian taiga,382,132,0.2568093385214007,406400.0
+Western Siberian hemiboreal forests,369,202,0.3537653239929947,226800.0
+Kamchatka-Kurile taiga,161,232,0.5903307888040712,17200.0
+Central British Columbia Mountain forests,265,546,0.6732429099876696,71600.0
+Baltic mixed forests,506,542,0.517175572519084,89600.0
+Atlantic mixed forests,731,837,0.5338010204081632,391200.0
+Kazakh forest steppe,552,189,0.2550607287449393,422400.0
+British Columbia mainland coastal forests,382,1152,0.7509778357235984,134400.0
+Sayan montane conifer forests,452,157,0.257799671592775,357600.0
+Fraser Plateau and Basin complex,307,479,0.6094147582697201,137600.0
+Kazakh steppe,541,150,0.2170767004341534,805200.0
+North Atlantic moist mixed forests,350,351,0.5007132667617689,15600.0
+Trans-Baikal conifer forests,367,81,0.1808035714285714,196000.0
+Central Canadian Shield forests,282,319,0.5307820299500832,462000.0
+Pontic steppe,851,211,0.1986817325800376,1005200.0
+Alberta Mountain forests,287,747,0.7224371373307543,40000.0
+Da Hinggan-Dzhagdy Mountains conifer forests,379,56,0.128735632183908,244400.0
+North Central Rockies forests,413,713,0.633214920071048,246800.0
+Tian Shan montane steppe and meadows,475,193,0.2889221556886227,279200.0
+Central China loess plateau mixed forests,598,481,0.4457831325301205,365200.0
+Sonoran desert,744,556,0.4276923076923077,225200.0
+East African montane forests,1330,1308,0.4958301743745261,40800.0
+Northern New Guinea lowland rain and freshwater swamp forests,765,935,0.55,149600.0
+Daurian forest steppe,393,37,0.0860465116279069,212800.0
+California montane chaparral and woodlands,425,1258,0.7474747474747475,16000.0
+Western Himalayan subalpine conifer forests,874,1500,0.6318449873631002,40800.0
+Southern Korea evergreen forests,203,1343,0.8686934023285899,12400.0
+Southeast Tibet shrublands and meadows,912,648,0.4153846153846154,478000.0
+Baluchistan xeric woodlands,716,891,0.5544492843808339,317200.0
+Tibesti-Jebel Uweinat montane xeric woodlands,117,935,0.8887832699619772,80800.0
+Selenge-Orkhon forest steppe,425,70,0.1414141414141414,225200.0
+Cascade Mountains leeward forests,369,954,0.7210884353741497,44800.0
+Western European broadleaf forests,825,613,0.4262865090403337,504000.0
+Northern short grasslands,446,368,0.4520884520884521,666000.0
+Okanagan dry forests,339,720,0.6798866855524079,54000.0
+Amur meadow steppe,370,101,0.2144373673036093,124800.0
+Montana Valley and Foothill grasslands,399,604,0.6021934197407777,65600.0
+Northern tall grasslands,342,269,0.4402618657937807,75600.0
+Central Pacific coastal forests,348,1553,0.8169384534455549,76000.0
+Ussuri broadleaf and mixed forests,372,193,0.3415929203539823,196800.0
+Altai steppe and semi-desert,463,226,0.3280116110304789,86000.0
+Pannonian mixed forests,745,626,0.4566010211524435,314400.0
+Junggar Basin semi-desert,489,138,0.2200956937799043,306800.0
+Palouse grasslands,369,933,0.716589861751152,49200.0
+New England-Acadian forests,385,469,0.5491803278688525,233200.0
+Northeast China Plain deciduous forests,428,198,0.31629392971246,229600.0
+Alps conifer and mixed forests,792,541,0.4058514628657164,150000.0
+Eastern Great Lakes lowland forests,378,356,0.4850136239782016,113200.0
+Emin Valley steppe,400,276,0.408284023668639,69200.0
+Central and Southern Cascades forests,381,1870,0.8307418924922256,46000.0
+Eastern Cascades forests,430,1005,0.7003484320557491,57600.0
+South Central Rockies forests,401,676,0.627669452181987,146800.0
+Gobi Lakes Valley desert steppe,273,94,0.2561307901907357,139600.0
+Tian Shan foothill arid steppe,464,398,0.4617169373549884,156000.0
+Willamette Valley forests,295,1788,0.8583773403744599,15200.0
+Illyrian deciduous forests,774,1336,0.633175355450237,42000.0
+Alashan Plateau semi-desert,456,59,0.1145631067961165,679200.0
+Northeastern Spain and Southern France Mediterranean forests,852,1162,0.576961271102284,85200.0
+Hokkaido montane conifer forests,230,402,0.6360759493670886,48400.0
+Wyoming Basin shrub steppe,394,407,0.5081148564294632,141200.0
+Northeastern coastal forests,433,711,0.6215034965034965,95200.0
+Gulf of California xeric scrub,286,1518,0.8414634146341463,32800.0
+Central Indochina dry forests,1093,1416,0.5643682742128338,320400.0
+North Western Ghats montane rain forests,842,43,0.0485875706214689,30400.0
+Luang Prabang montane rain forests,902,1404,0.608846487424111,73200.0
+Sumatran montane rain forests,848,1084,0.5610766045548654,76000.0
+Tonle Sap-Mekong peat swamp forests,525,1789,0.7731201382886776,26800.0
+Balkan mixed forests,797,645,0.4472954230235784,232400.0
+Crimean Submediterranean forest complex,362,731,0.6688014638609332,20400.0
+Italian sclerophyllous and semi-deciduous forests,769,1066,0.5809264305177112,118000.0
+Hokkaido deciduous forests,222,480,0.6837606837606838,29600.0
+Alai-Western Tian Shan steppe,434,576,0.5702970297029702,128000.0
+Caucasus mixed forests,731,488,0.4003281378178835,171200.0
+Changbai Mountains mixed forests,317,535,0.6279342723004695,86000.0
+Great Basin shrub steppe,501,616,0.5514771709937332,342000.0
+Pyrenees conifer and mixed forests,619,896,0.5914191419141914,26000.0
+Taklimakan desert,391,50,0.1133786848072562,751200.0
+Western short grasslands,600,616,0.506578947368421,438000.0
+Nebraska Sand Hills mixed grasslands,276,570,0.6737588652482269,60000.0
+Appenine deciduous montane forests,521,639,0.5508620689655173,10800.0
+Allegheny Highlands forests,360,723,0.667590027700831,84800.0
+Euxine-Colchic broadleaf forests,505,1077,0.6807838179519595,65200.0
+Iberian sclerophyllous and semi-deciduous forests,879,1258,0.5886757136172204,319600.0
+Northwest Iberian montane forests,691,1249,0.6438144329896908,57200.0
+Colorado Rockies forests,475,796,0.6262785208497246,133200.0
+Central forest-grasslands transition,583,1030,0.638561686298822,409200.0
+Wasatch and Uinta montane forests,381,550,0.5907626208378088,37600.0
+Central and Southern mixed grasslands,484,1113,0.6969317470256732,282800.0
+Northern Anatolian conifer and deciduous forests,487,733,0.6008196721311475,103600.0
+Azerbaijan shrub desert and steppe,467,566,0.547918683446273,64000.0
+Appalachian-Blue Ridge forests,502,1120,0.6905055487053021,161200.0
+Aegean and Western Turkey sclerophyllous and mixed forests,834,1575,0.6537982565379825,122800.0
+Eastern Anatolian montane steppe,624,480,0.4347826086956521,172000.0
+Nihonkai montane deciduous forests,252,541,0.682219419924338,80000.0
+Sierra Nevada forests,453,1554,0.7742899850523169,52800.0
+Colorado Plateau shrublands,645,541,0.4561551433389544,344800.0
+California interior chaparral and woodlands,447,1573,0.7787128712871287,72800.0
+Taiheiyo montane deciduous forests,254,1315,0.8381134480560867,34000.0
+Southwest Iberian Mediterranean sclerophyllous and mixed forests,714,1801,0.7161033797216699,70400.0
+California Central Valley grasslands,385,975,0.7169117647058824,53200.0
+Ordos Plateau steppe,427,196,0.3146067415730337,216000.0
+Anatolian conifer and deciduous mixed forests,492,1229,0.7141196978500871,78800.0
+Central Anatolian steppe and woodlands,454,895,0.6634544106745738,116400.0
+Eastern Anatolian deciduous forests,442,710,0.6163194444444444,76800.0
+Central Korean deciduous forests,278,1478,0.8416856492027335,104800.0
+Huang He Plain mixed forests,545,1102,0.6690953248330298,449600.0
+Central Anatolian steppe,303,981,0.764018691588785,11600.0
+Central U.S. hardwood forests,478,1116,0.7001254705144291,294400.0
+Pamir alpine desert and tundra,408,306,0.4285714285714285,123200.0
+Qilian Mountains subalpine meadows,270,130,0.325,74000.0
+Southeastern mixed forests,565,1161,0.6726535341830823,353200.0
+Flint Hills tall grasslands,301,1048,0.7768717568569311,30800.0
+Helanshan montane conifer forests,240,154,0.3908629441624365,24800.0
+Qaidam Basin semi-desert,239,60,0.2006688963210702,192000.0
+Kopet Dag semi-desert,372,821,0.6881810561609388,26000.0
+Taiheiyo evergreen forests,299,1251,0.8070967741935484,144400.0
+North Tibetan Plateau-Kunlun Mountains alpine desert,232,68,0.2266666666666666,385600.0
+Southern Anatolian montane conifer and deciduous forests,497,1164,0.7007826610475617,72400.0
+Badghyz and Karabil semi-desert,445,212,0.3226788432267884,134400.0
+Eastern Mediterranean conifer-sclerophyllous-broadleaf forests,644,878,0.5768725361366623,150000.0
+Zagros Mountains forest steppe,604,469,0.4370922646784715,399600.0
+Central Tibetan Plateau alpine steppe,393,160,0.2893309222423146,661200.0
+Paropamisus xeric woodlands,411,461,0.5286697247706422,92800.0
+Mojave desert,518,592,0.5333333333333333,132000.0
+Central Persian desert basins,531,386,0.420937840785169,590400.0
+Hindu Kush alpine meadow,357,958,0.7285171102661597,26800.0
+Kuh Rud and Eastern Iran montane woodlands,386,377,0.4941022280471822,107600.0
+Qin Ling Mountains deciduous forests,649,983,0.602328431372549,125200.0
+Indus Valley desert,269,521,0.6594936708860759,20000.0
+Red Sea Nubo-Sindian tropical desert and semi-desert,437,1585,0.7838773491592482,631600.0
+Al Hajar montane woodlands,150,1836,0.9244712990936556,25200.0
+Western Congolian swamp forests,1071,1256,0.5397507520412549,127600.0
+Karakoram-West Tibetan Plateau alpine steppe,487,312,0.3904881101376721,161600.0
+Mississippi lowland forests,445,1126,0.7167409293443666,119600.0
+Tibetan Plateau alpine shrublands and meadows,384,326,0.4591549295774648,276400.0
+Ozark Mountain forests,365,1335,0.7852941176470588,62000.0
+Arizona Mountains forests,598,669,0.5280189423835833,96400.0
+Western Himalayan broadleaf forests,784,818,0.5106117353308365,50000.0
+North Saharan steppe and woodlands,633,793,0.5561009817671809,1688000.0
+Piney Woods forests,390,1222,0.7580645161290323,140400.0
+Saharan halophytics,292,1068,0.7852941176470588,30000.0
+California coastal sage and chaparral,424,1525,0.7824525397639815,37200.0
+East Afghan montane conifer forests,299,660,0.6882168925964547,10000.0
+Chihuahuan desert,987,800,0.4476776720761052,548400.0
+Changjiang Plain evergreen forests,602,1117,0.6497963932518906,441600.0
+East Sudanian savanna,1883,1520,0.4466647076109315,933200.0
+Sulawesi montane rain forests,431,1139,0.7254777070063694,56800.0
+Western Congolian forest-savanna mosaic,1439,1095,0.4321231254932912,411600.0
+Qionglai-Minshan conifer forests,853,1395,0.6205516014234875,80000.0
+Texas blackland prairies,400,1335,0.7694524495677233,41200.0
+Arabian Desert and East Sahero-Arabian xeric shrublands,590,862,0.59366391184573,1881200.0
+Daba Mountains evergreen forests,652,965,0.5967841682127396,168000.0
+Southeastern conifer forests,473,1523,0.7630260521042084,239200.0
+Registan-North Pakistan sandy desert,389,178,0.3139329805996472,278400.0
+Tigris-Euphrates alluvial salt marsh,249,399,0.6157407407407407,30400.0
+Mediterranean acacia-argania dry woodlands and succulent thickets,472,1669,0.779542269967305,98000.0
+Nujiang Langcang Gorge alpine conifer and mixed forests,1050,1136,0.5196706312900274,81600.0
+Hengduan Mountains subalpine conifer forests,801,1542,0.6581306017925737,101600.0
+Western Himalayan alpine shrub and Meadows,669,976,0.5933130699088146,80800.0
+Sichuan Basin evergreen broadleaf forests,617,1255,0.6704059829059829,98400.0
+Baja California desert,363,1471,0.802071973827699,77200.0
+Sulaiman Range alpine meadows,252,366,0.5922330097087378,10400.0
+Guizhou Plateau broadleaf and mixed forests,797,1031,0.5640043763676149,269600.0
+Irrawaddy freshwater swamp forests,529,1248,0.7023072594259989,25600.0
+Chao Phraya freshwater swamp forests,648,1654,0.7185056472632494,41600.0
+Inner Niger Delta flooded savanna,576,409,0.4152284263959391,44800.0
+Southeastern Indochina dry evergreen forests,986,1184,0.5456221198156682,130000.0
+Southern Vietnam lowland dry forests,895,1598,0.6409947853991176,33600.0
+Somali montane xeric woodlands,317,1762,0.8475228475228476,54000.0
+Northeastern Himalayan subalpine conifer forests,646,1207,0.6513761467889908,42400.0
+Western Gulf coastal grasslands,521,1267,0.7086129753914989,70800.0
+Upper Gangetic Plains moist deciduous forests,740,1940,0.7238805970149254,263600.0
+Sahara desert,489,828,0.6287015945330297,4656000.0
+Persian Gulf desert and semi-desert,227,680,0.7497243660418964,60400.0
+Sonoran-Sinaloan transition subtropical dry forest,611,1112,0.6453859547301218,55600.0
+Jian Nan subtropical evergreen forests,876,1141,0.5656916212196331,660800.0
+Yarlung Tsangpo arid steppe,259,561,0.6841463414634147,42400.0
+Thar desert,410,419,0.5054282267792521,238000.0
+Tamaulipan mezquital,719,2059,0.7411807055435565,158800.0
+Red Sea coastal desert,265,1806,0.8720424915499758,60000.0
+Himalayan subtropical broadleaf forests,989,1667,0.6276355421686747,49600.0
+Yunnan Plateau subtropical evergreen forests,1100,1702,0.6074232690935046,242400.0
+Khathiar-Gir dry deciduous forests,669,1725,0.7205513784461153,264400.0
+Brahmaputra Valley semi-evergreen forests,934,1088,0.5380811078140455,55600.0
+Northern Triangle temperate forests,875,1260,0.5901639344262295,10800.0
+Northern Triangle subtropical forests,974,1013,0.5098137896326119,52400.0
+Lower Gangetic Plains moist deciduous forests,953,1086,0.5326140264835704,253600.0
+Atlantic coastal desert,231,1596,0.8735632183908046,41600.0
+Northern Indochina subtropical forests,1564,1339,0.4612469858766793,434400.0
+Mizoram-Manipur-Kachin rain forests,1127,926,0.4510472479298587,148000.0
+Meghalaya subtropical forests,840,304,0.2657342657342657,42000.0
+Gulf of Oman desert and semi-desert,224,1979,0.8983204720835225,70400.0
+Sierra Madre Oriental pine-oak forests,758,1636,0.683375104427736,22400.0
+Meseta Central matorral,815,1490,0.6464208242950108,135200.0
+Narmada Valley dry deciduous forests,754,2064,0.7324343506032647,170800.0
+Taiwan subtropical evergreen forests,360,639,0.6396396396396397,36000.0
+Chhota-Nagpur dry deciduous forests,511,1824,0.7811563169164882,121600.0
+Southwestern Arabian foothills savanna,327,1880,0.851835070231083,275600.0
+Irrawaddy moist deciduous forests,933,1411,0.601962457337884,136800.0
+Rann of Kutch seasonal salt marsh,407,1178,0.7432176656151419,28000.0
+Chin Hills-Arakan Yoma montane forests,770,1430,0.65,28800.0
+Eastern highlands moist deciduous forests,734,1983,0.7298490982701509,342400.0
+Sundarbans freshwater swamp forests,459,1843,0.8006081668114683,16400.0
+Central Mexican matorral,776,1718,0.6888532477947072,73200.0
+South Saharan steppe and woodlands,479,562,0.5398655139289145,1106000.0
+Sundarbans mangroves,417,1684,0.8015230842455974,14400.0
+Arabian Peninsula coastal fog desert,310,1823,0.8546647913736521,84000.0
+Southwestern Arabian montane woodlands,258,1915,0.8812701334560515,86000.0
+Northern dry deciduous forests,565,2085,0.7867924528301887,58000.0
+Irrawaddy dry forests,531,1540,0.7436021245774987,27200.0
+Deccan thorn scrub forests,870,1761,0.669327251995439,341200.0
+North Western Ghats moist deciduous forests,856,291,0.2537053182214472,52800.0
+Central Deccan Plateau dry deciduous forests,700,1976,0.7384155455904334,239600.0
+Red River freshwater swamp forests,616,1080,0.6367924528301887,13600.0
+Myanmar coastal rain forests,999,422,0.2969739619985925,66800.0
+Orissa semi-evergreen forests,443,1866,0.8081420528367259,24800.0
+Kayah-Karen montane rain forests,1026,967,0.4851981936778725,131600.0
+Sahelian Acacia savanna,1301,232,0.1513372472276581,3073200.0
+Northern Thailand-Laos moist deciduous forests,855,1614,0.6537059538274606,42400.0
+Northern Vietnam lowland rain forests,841,956,0.531997774067891,23600.0
+Hainan Island monsoon rain forests,420,1329,0.7598627787307033,14000.0
+Northern Annamites rain forests,899,937,0.5103485838779956,47200.0
+Northern Khorat Plateau moist deciduous forests,668,1184,0.6393088552915767,15600.0
+Luzon rain forests,466,568,0.5493230174081238,106000.0
+Malabar Coast moist forests,874,107,0.109072375127421,30800.0
+Ethiopian xeric grasslands and shrublands,759,1869,0.7111872146118722,155200.0
+Somali Acacia-Commiphora bushlands and thickets,1441,1555,0.5190253671562083,1070800.0
+East Saharan montane xeric woodlands,171,236,0.5798525798525799,22000.0
+Southern Annamites montane rain forests,932,897,0.4904319300164024,46800.0
+Tenasserim-South Thailand semi-evergreen rain forests,1125,971,0.4632633587786259,112400.0
+East Deccan dry-evergreen forests,532,1691,0.7606837606837606,26000.0
+Cardamom Mountains rain forests,709,1364,0.6579835986493006,54800.0
+Tonle Sap freshwater swamp forests,541,1726,0.7613586237318042,30000.0
+Guinean forest-savanna mosaic,1615,1332,0.4519850695622667,720000.0
+South Western Ghats montane rain forests,947,459,0.3264580369843528,23600.0
+South Western Ghats moist deciduous forests,933,947,0.5037234042553191,24400.0
+Mindanao-Eastern Visayas rain forests,509,729,0.5888529886914378,96400.0
+Greater Negros-Panay rain forests,333,1312,0.7975683890577507,23200.0
+Victoria Basin forest-savanna mosaic,1730,1372,0.4422952933591231,168800.0
+Southwest Borneo freshwater swamp forests,592,1324,0.6910229645093946,23600.0
+Zambezian Cryptosepalum dry forests,842,1707,0.6696743821106316,23200.0
+Palawan rain forests,359,1497,0.806573275862069,11200.0
+Sri Lanka dry-zone dry evergreen forests,492,1617,0.7667140825035562,52000.0
+Northern Congolian forest-savanna mosaic,1904,1276,0.4012578616352201,724800.0
+Mindanao montane rain forests,426,1370,0.7628062360801782,10800.0
+Nigerian lowland forests,934,1517,0.6189310485516116,67600.0
+Northwestern Congolian lowland forests,1392,1064,0.4332247557003257,437200.0
+Peninsular Malaysian montane rain forests,890,1159,0.56564177647633,13600.0
+Northern Acacia-Commiphora bushlands and thickets,1621,1434,0.4693944353518821,323200.0
+Sundaland heath forests,616,1242,0.6684607104413348,30400.0
+Southern New Guinea freshwater swamp forests,655,402,0.380321665089877,84400.0
+Western Java rain forests,607,912,0.6003949967083607,40000.0
+Angolan scarp savanna and woodlands,1122,1832,0.6201760324983073,74800.0
+New Caledonia rain forests,193,848,0.8146013448607109,16000.0
+Zambezian and Mopane woodlands,1532,1721,0.5290501075929911,470000.0
+Eastern Guinean forests,1069,1457,0.5768012668250198,182800.0
+Cameroonian Highlands forests,1334,1039,0.4378423935946059,30800.0
+Sri Lanka lowland rain forests,464,935,0.6683345246604717,15600.0
+Borneo lowland rain forests,1067,828,0.4369393139841688,559600.0
+Peninsular Malaysian rain forests,1031,945,0.4782388663967611,126000.0
+Central African mangroves,975,1267,0.5651204281891169,20400.0
+Cross-Sanaga-Bioko coastal forests,1245,1351,0.5204160246533128,52800.0
+Hobyo grasslands and shrublands,482,1887,0.7965386238919375,25200.0
+Cross-Niger transition forests,739,1540,0.6757349714787187,21600.0
+Niger Delta swamp forests,667,1545,0.6984629294755877,13600.0
+Northeastern Congolian lowland forests,1528,861,0.3604018417748011,532000.0
+Southeastern Papuan rain forests,855,1011,0.5418006430868167,81600.0
+Masai xeric grasslands and shrublands,980,1760,0.6423357664233577,121600.0
+Southern Acacia-Commiphora bushlands and thickets,1554,1120,0.418848167539267,257600.0
+Southern Congolian forest-savanna mosaic,1344,1363,0.5035094200221648,572400.0
+Sumatran lowland rain forests,941,916,0.4932687129779213,262800.0
+Madagascar dry deciduous forests,533,885,0.6241184767277856,158800.0
+North Island temperate forests,250,600,0.7058823529411765,86000.0
+South Island montane grasslands,161,189,0.54,44400.0
+South Island temperate forests,142,795,0.848452508004269,12000.0
+Tirari-Sturt stony desert,609,1318,0.6839647119875454,378400.0
+Borneo montane rain forests,862,916,0.515185601799775,103600.0
+Atlantic Equatorial coastal forests,1261,870,0.4082590333176912,199200.0
+Pilbara shrublands,473,1328,0.7373681288173237,180000.0
+Western Java montane rain forests,589,990,0.6269791006966434,27200.0
+Borneo peat swamp forests,673,530,0.4405652535328346,18800.0
+Sumatran peat swamp forests,735,1038,0.5854483925549916,94000.0
+Halmahera rain forests,223,1464,0.8678126852400712,18000.0
+Eastern Congolian swamp forests,898,1234,0.5787992495309568,93200.0
+Madagascar lowland forests,818,973,0.5432719151312116,112800.0
+Central Ranges xeric scrub,456,1319,0.7430985915492958,279600.0
+Central Congolian lowland forests,912,934,0.5059588299024919,416800.0
+Northern Zanzibar-Inhambane coastal forest mosaic,1287,1427,0.525792188651437,119200.0
+Sulawesi lowland rain forests,535,1054,0.6633102580239144,113200.0
+Albertine Rift montane forests,1697,1040,0.3799780781877968,96400.0
+Madagascar spiny thickets,386,2186,0.8499222395023328,44000.0
+Albany thickets,641,1729,0.729535864978903,12400.0
+Mount Lofty woodlands,458,1482,0.7639175257731958,19600.0
+Western Australian Mulga shrublands,634,1228,0.6595059076262084,460800.0
+Vogelkop montane rain forests,486,913,0.6526090064331665,21600.0
+Vogelkop-Aru lowland rain forests,598,942,0.6116883116883117,78800.0
+New Britain-New Ireland lowland rain forests,301,1164,0.7945392491467577,35200.0
+Southern New Guinea lowland rain forests,672,453,0.4026666666666667,129200.0
+Namib desert,511,1766,0.7755819060166886,80400.0
+Central Zambezian Miombo woodlands,1897,1200,0.387471746851792,1232000.0
+Northern New Guinea montane rain forests,434,1019,0.7013076393668273,15200.0
+Seram rain forests,293,1259,0.8112113402061856,17600.0
+Central Range montane rain forests,905,578,0.389750505731625,184000.0
+Eastern Java-Bali rain forests,533,1683,0.7594765342960289,57600.0
+Kalahari Acacia-Baikiaea woodlands,968,1156,0.544256120527307,326800.0
+Huon Peninsula montane rain forests,577,799,0.5806686046511628,17200.0
+Eastern Miombo woodlands,1398,1409,0.5019593872461703,504000.0
+Angolan Miombo woodlands,1393,1542,0.5253833049403748,667600.0
+Eastern Arc forests,985,1488,0.6016983420946219,12400.0
+Trans Fly savanna and grasslands,417,1705,0.8034872761545712,26000.0
+Lesser Sundas deciduous forests,290,1630,0.8489583333333334,30800.0
+Timor and Wetar deciduous forests,318,1656,0.8389057750759878,28400.0
+Southern Rift montane forest-grassland mosaic,966,1475,0.6042605489553462,19600.0
+Sumba deciduous forests,208,1673,0.8894205209994683,10400.0
+Southern Zanzibar-Inhambane coastal forest mosaic,893,1680,0.6529343179168287,133200.0
+Angolan montane forest-grassland mosaic,796,1615,0.6698465367067606,22800.0
+Southern Miombo woodlands,1273,1676,0.5683282468633435,438800.0
+Arnhem Land tropical savanna,633,2056,0.7645965042766828,146000.0
+Kaokoveld desert,698,1812,0.7219123505976096,45600.0
+Namibian savanna woodlands,903,1442,0.6149253731343284,226800.0
+Madagascar subhumid forests,774,1832,0.7029930928626247,196400.0
+Kimberly tropical savanna,836,1869,0.6909426987060998,349600.0
+Zambezian Baikiaea woodlands,1086,1287,0.5423514538558787,267200.0
+Carpentaria tropical savanna,782,2016,0.7205146533238027,358000.0
+Victoria Plains tropical savanna,625,1779,0.7400166389351082,226000.0
+Angolan Mopane woodlands,922,1275,0.5803368229403733,142000.0
+South Malawi montane forest-grassland mosaic,849,1738,0.6718206416698879,10400.0
+Queensland tropical rain forests,835,1008,0.5469343461747151,30800.0
+Einasleigh upland savanna,806,2085,0.7212037357315808,128800.0
+Mitchell grass downs,789,1600,0.6697362913352868,460000.0
+Zambezian coastal flooded savanna,684,1615,0.7024793388429752,31600.0
+Great Sandy-Tanami desert,656,1449,0.6883610451306413,828000.0
+Murray-Darling woodlands and mallee,602,1395,0.6985478217325989,191200.0
+Southwest Australia woodlands,691,1627,0.7018981880931838,46800.0
+Montane fynbos and renosterveld,916,1630,0.6402199528672428,49600.0
+Cantebury-Otago tussock grasslands,200,1387,0.8739760554505356,53200.0
+Southern Africa bushveld,1128,1410,0.5555555555555556,227600.0
+Brigalow tropical savanna,958,1616,0.6278166278166278,345200.0
+Kalahari xeric savanna,891,969,0.5209677419354839,591600.0
+Madagascar succulent woodlands,352,2049,0.8533944189920867,82400.0
+Zambezian halophytics,592,1225,0.6741882223445239,23600.0
+Drakensberg alti-montane grasslands and woodlands,640,1891,0.7471355195574871,12800.0
+Nullarbor Plains xeric shrublands,385,1684,0.8139197680038666,194800.0
+"Drakensberg montane grasslands, woodlands and forests",1247,1542,0.5528863391896737,224400.0
+Fiordland temperate forests,138,166,0.5460526315789473,10400.0
+Simpson desert,581,1331,0.6961297071129707,586000.0
+Carnarvon xeric shrublands,526,1379,0.7238845144356956,89200.0
+Gibson desert,328,1420,0.8123569794050344,155200.0
+Eastern Australian temperate forests,1110,1400,0.5577689243027888,220800.0
+Maputaland coastal forest mosaic,890,1643,0.6486379786814055,32800.0
+Eastern Australia mulga shrublands,525,1566,0.7489239598278336,256400.0
+Highveld grasslands,973,1554,0.6149584487534626,194000.0
+Great Victoria desert,558,1345,0.7067787703625854,427200.0
+Southwest Australia savanna,987,1319,0.5719861231569818,168800.0
+Succulent Karoo,793,1760,0.6893850372111242,106000.0
+Nama Karoo,939,1503,0.6154791154791155,367600.0
+Southeast Australia temperate savanna,743,1421,0.6566543438077634,329600.0
+Coolgardie woodlands,594,1472,0.712487899322362,138000.0
+Swan Coastal Plain Scrub and Woodlands,585,1498,0.7191550648103696,16000.0
+Esperance mallee,842,1419,0.6275984077841663,115200.0
+Lowland fynbos and renosterveld,698,1631,0.7003005581794761,29600.0
+Eyre and York mallee,480,1576,0.7665369649805448,61200.0
+Southeast Australia temperate forests,872,1218,0.5827751196172248,272000.0
+Jarrah-Karri forest and shrublands,379,1469,0.7949134199134199,9200.0
+Northland temperate kauri forests,244,505,0.6742323097463284,29600.0
+Naracoorte woodlands,444,1564,0.7788844621513944,27200.0
+Australian Alps montane grasslands,456,1199,0.7244712990936556,11200.0
+Nelson Coast temperate forests,197,104,0.3455149501661129,14400.0
+Tasmanian temperate rain forests,246,768,0.757396449704142,30400.0
+Tasmanian temperate forests,268,1282,0.8270967741935484,16400.0
+Richmond temperate forests,202,727,0.7825618945102261,12800.0
+Tasmanian Central Highland forests,242,1298,0.8428571428571429,18800.0
+Nile Delta flooded savanna,318,1349,0.8092381523695261,60400.0

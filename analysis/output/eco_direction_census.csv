@@ -1,0 +1,5 @@
+"quantile","enriched_all","depleted_all","enriched_reliable","depleted_reliable"
+0.8,71,548,71,548
+0.9,344,275,344,275
+0.95,538,81,520,81
+0.99,602,17,449,3

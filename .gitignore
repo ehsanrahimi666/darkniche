@@ -1,0 +1,10 @@
+*.Rcheck/
+*.tar.gz
+.RData
+.Rd2pdf*
+.Rhistory
+.Rproj.user
+.Ruserdata
+analysis/output/*.rds
+docs/
+figure/

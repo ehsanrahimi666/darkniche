@@ -1,0 +1,4 @@
+"stratum","n","n_admissible","DNC_q","DNC_auc","D","I","p_DNCauc_vs_D"
+"niche ~ region",2400,0,NA,NA,NA,NA,NA
+"intermediate",2400,142,0.997,0.998,0.978,0.977,0
+"niche >> region",2400,667,0.994,0.994,0.957,0.96,0

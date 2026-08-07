@@ -1,0 +1,15 @@
+^\.github$
+^manual$
+^manuscript$
+^analysis$
+^tools$
+^DESIGN\.md$
+^README\.md$
+^NEWS\.md$
+^LICENSE\.md$
+^\.gitignore$
+^darkniche\.Rproj$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
