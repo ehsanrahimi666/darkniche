@@ -177,7 +177,6 @@ test_that("calibration returns a usable threshold", {
 })
 
 test_that("plot functions run on bundled data without error", {
-  skip_on_cran()
   f <- tempfile(fileext = ".png")
   grDevices::png(f, 900, 700)
   on.exit({grDevices::dev.off(); unlink(f)}, add = TRUE)

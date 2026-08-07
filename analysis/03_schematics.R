@@ -35,7 +35,7 @@ box(14, 45, 30, 6, "occupied cells per species\noccupied cells per region", g_in
 
 # engine
 text(14, 38.2, "Shared engine", font = 2, cex = 0.8)
-box(14, 32, 30, 6.5, "dn_space()  \u2014 one lattice for every object\ndd_density() \u2014 fixed-bandwidth KDE", g_eng)
+box(14, 32, 30, 6.5, "dn_space()  \u2014 one lattice for every object\ndn_density() \u2014 fixed-bandwidth KDE", g_eng)
 box(14, 23, 30, 6.5, "dn_envelope() / dn_entryq()\nq-envelopes and cumulative rank", g_eng)
 
 # metrics
@@ -47,23 +47,23 @@ box(50, 51, 30, 9,
 # nulls
 text(50, 42.5, "Null screens", font = 2, cex = 0.8)
 box(50, 35, 30, 8,
-    "dn_null_breadth()  N1 breadth-matched\ndd_null_shift()    N2 environmental shift\ndd_null_relocate() N3 geographic relocation",
+    "dn_null_breadth()  N1 breadth-matched\ndn_null_shift()    N2 environmental shift\ndn_null_relocate() N3 geographic relocation",
     g_nul)
 
 # validation
 text(86, 59, "Calibration", font = 2, cex = 0.8)
 box(86, 51, 26, 9,
-    "dn_match()  matched negatives\ndd_auc() / dn_delong()\ndd_calibrate()  Youden threshold",
+    "dn_match()  matched negatives\ndn_auc() / dn_delong()\ndn_calibrate()  Youden threshold",
     g_val)
 
 # accounting
 text(50, 26, "Dark-diversity accounting", font = 2, cex = 0.8)
-box(50, 19, 30, 7, "dn_dark()  conjunction rule\ndd_cddr()  area-adjusted ratio", g_out)
+box(50, 19, 30, 7, "dn_dark()  conjunction rule\ndn_cddr()  area-adjusted ratio", g_out)
 
 # diagnostics
 text(86, 34, "Diagnostics", font = 2, cex = 0.8)
 box(86, 26, 26, 9,
-    "dn_aggregate()  region-level test\n(reliability flags)\ndd_sweep() / dn_direction_census()",
+    "dn_aggregate()  region-level test\n(reliability flags)\ndn_sweep() / dn_direction_census()",
     g_val)
 
 # reporting

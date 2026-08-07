@@ -103,7 +103,7 @@ darkniche/
   inst/extdata/
     golden/     fixtures from the Python reference implementation
     ecoregions/ published results for 619 WWF terrestrial ecoregions
-  tests/        162 assertions (test-golden.R numerical, test-workflow.R behavioural)
+  tests/        169 assertions (test-golden.R numerical, test-workflow.R behavioural)
   vignettes/    quickstart tutorial
   analysis/     scripts regenerating every figure and table of the paper
     figures/    generated PNGs
@@ -160,7 +160,23 @@ Kept deliberately, because each was found by a test rather than by reading:
    because R does not install a package's tests unless
    `INSTALL_opts = "--install-tests"` is passed. Documentation examples that
    quote expected output must either be seeded or must not quote output.
-5. **`CFI_w` cell-ordering.** The Mahalanobis weight grid must be enumerated
+5. **Architecture figure kept the old function prefix** (fixed
+   post-release). The package-wide rename `dd_` -> `dn_` used a
+   word-boundary regex, which does not match `dd_` when it follows an escaped
+   newline inside a string literal (`"...\ndd_density()"`), so five boxes of
+   the architecture figure still showed the old names. Found by grepping the
+   whole tree for the old prefix rather than by any test. Renames must be
+   verified by a tree-wide search afterwards, not assumed from the regex.
+6. **README workflow block was not runnable.** It used placeholder object
+   names (`global_scores`, `pair_table`), so a user pasting it hit
+   `object not found`. The block now simulates its own inputs and runs
+   end to end; it is executed verbatim before each release.
+7. **`skip_on_cran()` made the test count ambiguous.** The plotting test was
+   skipped in CRAN-style runs and not in interactive ones, so the suite
+   reported 162 or 169 assertions depending on context and the documented
+   figure was sometimes wrong. Since the package is not going to CRAN, the
+   skip was removed: the count is now 169 everywhere.
+8. **`CFI_w` cell-ordering.** The Mahalanobis weight grid must be enumerated
    in the same order as the flattened density. R densities flatten
    column-major (x fastest, matching `expand.grid`); the Python fixtures are
    C-order (x slowest). The golden test builds its own grid for the fixture
