@@ -1,0 +1,80 @@
+# Environmental-shift null (N2)
+
+Null distribution of directional coverage obtained by translating the
+species' coverage-weight array to random, availability-weighted
+positions in environmental space. Translation permutes lattice cells
+without altering density values, so the envelope of a shifted niche is
+exactly the shifted envelope; the weights are computed once and rolled.
+
+## Usage
+
+``` r
+dn_null_shift(
+  Z_sp,
+  Ze,
+  Z_global,
+  q = 0.95,
+  B = 499L,
+  statistic = c("auc", "q"),
+  targets = NULL,
+  seed = NULL
+)
+```
+
+## Arguments
+
+- Z_sp:
+
+  `R x R` species density.
+
+- Ze:
+
+  (k x P) region densities.
+
+- Z_global:
+
+  `R x R` global availability density; shift targets are drawn
+  proportional to it.
+
+- q:
+
+  envelope level.
+
+- B:
+
+  number of replicates (default 499).
+
+- statistic:
+
+  `"q"` or `"auc"`.
+
+- targets:
+
+  optional integer vector of length B giving flat target cell indices
+  (1-based, column-major on the R x R lattice); supply to reproduce a
+  specific draw exactly (e.g. from the Python pipeline).
+
+- seed:
+
+  RNG seed used when `targets` is NULL.
+
+## Value
+
+(k x B) matrix of null coverage values.
+
+## Examples
+
+``` r
+set.seed(1)
+bg <- cbind(rnorm(4000), rnorm(4000))
+sp <- dn_space(bg, R = 50)
+Zg <- dn_density(bg, sp)
+Zs <- dn_density(cbind(rnorm(300, 1, 0.4), rnorm(300, 0, 0.4)), sp)
+Ze <- matrix(as.numeric(dn_density(cbind(rnorm(300, 1, 0.3),
+                                         rnorm(300, 0, 0.3)), sp)), 1)
+obs <- as.numeric(Ze %*% dn_weights(Zs))
+nul <- dn_null_shift(Zs, Ze, Zg, B = 99, seed = 1)
+dn_null_summary(obs, nul)
+#>    null_mean   null_sd      ses p_emp n_valid
+#> 1 0.08130976 0.1325745 4.119742  0.01      99
+```

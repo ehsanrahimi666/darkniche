@@ -1,0 +1,9 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  darkniche-quickstart: darkniche-quickstart.html
+last_built: 2026-08-07T12:10Z
+urls:
+  reference: https://ehsanrahimi666.github.io/darkniche/reference
+  article: https://ehsanrahimi666.github.io/darkniche/articles
