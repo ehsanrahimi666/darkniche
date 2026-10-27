@@ -1,13 +1,19 @@
-"""Generate golden test fixtures for the R port from the actual ddarkniche code."""
+"""Generate golden test fixtures for the R port from the actual ddarkniche code.
+
+Run: python tools/make_golden.py. If the ddarkniche Python package is not installed,
+set DDARKNICHE_PATH to the folder that contains it.
+"""
 import sys, os, json
+from pathlib import Path
 import numpy as np
-sys.path.insert(0, "/home/claude/pipe/iran_dark_diversity")
+if os.environ.get("DDARKNICHE_PATH"):
+    sys.path.insert(0, os.environ["DDARKNICHE_PATH"])
 from ddarkniche.niche import build_pcspace, kde_grid, envelope_mask, density_moments
 from ddarkniche.metrics import pair_metrics, envelopes_flat, entry_quantiles
 from ddarkniche.nulls import shift_null_dnc, aggregate_admissibility_test, _availability_weights, breadth_matched_null
 from ddarkniche.utils import ses
 
-OUT = "/home/claude/darkniche/inst/extdata/golden"
+OUT = str(Path(__file__).resolve().parents[1] / "inst" / "extdata" / "golden")
 os.makedirs(OUT, exist_ok=True)
 rng = np.random.default_rng(42)
 
